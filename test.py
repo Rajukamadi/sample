@@ -1,8 +1,6 @@
 import json
 import csv
-import pdb
 
-#pdb.set_trace()
 datapointsData=[]
 with open('datapoints.json') as f: # reading data from json file
         data=json.load(f)
